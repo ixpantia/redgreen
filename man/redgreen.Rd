@@ -2,10 +2,14 @@
 % Please edit documentation in R/extendr-wrappers.R
 \name{redgreen}
 \alias{redgreen}
-\title{Return string \code{"Hello world!"} to R.}
+\title{A very simple funcion that takes in two
+double arrays. One with the value to
+render and another with the difference.}
 \usage{
 redgreen(value, diff)
 }
 \description{
-Return string \code{"Hello world!"} to R.
+A very simple funcion that takes in two
+double arrays. One with the value to
+render and another with the difference.
 }

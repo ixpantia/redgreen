@@ -10,3 +10,4 @@ name = 'redgreen'
 
 [dependencies]
 extendr-api = '*'
+plotters = { version = "0.3.6", default-features = false, features = ["plotters-svg", "svg_backend", "area_series"] }

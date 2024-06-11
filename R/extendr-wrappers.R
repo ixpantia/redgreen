@@ -11,9 +11,14 @@
 #' @useDynLib redgreen, .registration = TRUE
 NULL
 
-#' Return string `"Hello world!"` to R.
+#' A very simple funcion that takes in two
+#' double arrays. One with the value to
+#' render and another with the difference.
 #' @export
 redgreen <- function(value, diff) .Call(wrap__redgreen, value, diff)
+
+#' @export
+plot_values <- function(values, x, y) .Call(wrap__plot_values, values, x, y)
 
 
 # nolint end
