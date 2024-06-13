@@ -6,7 +6,6 @@
 # This file was created with the following call:
 #   .Call("wrap__make_redgreen_wrappers", use_symbols = TRUE, package_name = "redgreen")
 
-#' @docType package
 #' @usage NULL
 #' @useDynLib redgreen, .registration = TRUE
 NULL
